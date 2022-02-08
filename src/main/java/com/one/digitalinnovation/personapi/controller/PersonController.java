@@ -23,4 +23,10 @@ public class PersonController {
     public MessageResponseDTO createPerson(@RequestBody Person person){
       return personService.createPerson(person);
     }
+
+    @GetMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public String helloPerson(){
+        return "hello world";
+    }
 }
