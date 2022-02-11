@@ -15,6 +15,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 @Data
@@ -37,10 +38,10 @@ public class PersonDTO {
     @CPF
     private String cpf;
 
-    private LocalDate birthData;
+    private String birthData;
 
     @NotEmpty
     @Valid
-    private List<Phone> phones;
+    private List<PhoneDTO> phones;
 
 }

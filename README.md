@@ -9,6 +9,7 @@ Durante o processo foram utilizados os seguintes tópicos:
 - Criação de modelo de dados para o mapeamento de entidades em banco de dados
 - Operações de gerenciamento de usuários(Cadastro, leitura, atualização e remoção de pessoas de um sistema).
 - Foi utilizado o padrão arquitetural REST
+- Desenvolvimento de testes unitários para validação das funcionalidades  
 - Implantação do sistema na nuvem através do Heroku.
 
 Para executar o projeto no terminal, digite o seguinte comando:
